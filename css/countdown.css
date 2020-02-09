@@ -1,0 +1,39 @@
+/*倒计时的css*/
+
+.se-count {
+	position: relative;
+	top: 28px;
+	left: 49px;
+	height: 40px;
+}
+
+.se-day {
+	display: none;
+}
+
+.fengefu {
+	float: left;
+	font-size: 22px;
+	font-weight: 700;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.se-hour,
+.se-min,
+.se-sec {
+	position: relative;
+	background-color: #605751;
+	width: 40px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 5px;
+}
+
+.se-txt {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}

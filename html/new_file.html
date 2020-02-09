@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{padding: 0;margin: 0;list-style: none;}
+			ul{width: 200px; height:40px; border: 1px solid red;}
+			ul>li{ float: left;margin-left: 10px;width: 40px; height: 100%;}
+			.box{width: 300px; height: 500px; border: 1px solid red;}
+			.box_one{width:100px ; height: 100px;border: 1px solid; position: absolute;}
+			.box_two,.box_three{display: none;}
+			.color{background: #F1F1F1;}
+		</style>
+		<script src="../js/Jq/jquery.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+		
+		<div class="box_ul">
+			<ul>
+				<li class="color">新闻</li>
+				<li>文章</li>
+				<li>杂志</li>
+			</ul>
+		</div>
+
+		
+		<div class="box">
+			<div class="box_one">
+				111
+			</div>
+			<div class="box_one box_two">
+				222
+			</div>			
+			<div class="box_one box_three">
+				333
+			</div>			
+		</div>
+	</body>
+	
+	<script>
+		$(function(){
+			var li=$(".box_ul ul li");
+			li.click(function(){
+				$(this).addClass("color")
+				.siblings().removeClass("color")
+				
+				var index=li.index(this);
+				$(".box>div").eq(index).show().siblings().hide();
+				
+			})
+			
+			
+		})
+		
+		
+	</script>
+</html>

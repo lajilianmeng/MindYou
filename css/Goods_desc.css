@@ -1,0 +1,176 @@
+/*MindYou商城详情页面全局样式开始*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	outline: none;
+	/*去掉搜索框点击时候的边框*/
+}
+/*MindYou商城详情页面全局样式结束*/
+
+
+/*商品详情页面样式开始*/
+
+#Goods_desc{
+	width: 100%;
+}
+.Goods_box_desc{width: 1225px;/*height:3000px;*/margin: 0 auto;/*border: 2px solid #1E9FFF;*/overflow: hidden;}
+.desc_left_lunbo{width: 560px; height: 560px;/* border: 1px solid red;*/ float: left;/*position: relative;*/}
+
+.lunbo_img01{width: 560px;height: 560px;}
+
+.desc_right_desc{width: 616px;/*height:3000px;*//*border: 1px solid blueviolet;*/ float: right;}
+.desc_right_desc_box1{width: 100%; padding-bottom: 20px;/* border-bottom: 2px solid #E2E2E2;*/}
+.box_p1{line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: normal;
+    color: #212121;}
+.box_p2{
+	color: #b0b0b0;
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+}
+
+.desc_right_desc_box2{width:100%;padding-bottom: 20px;/*border-bottom: 2px solid #E2E2E2;*/margin-top: 30px;}
+.box2_p1{
+	line-height: 1;
+    font-size: 18px;
+    }
+
+.box2_ul li{   
+	margin-left: 6px;
+    margin-top: 15px;
+    line-height: 42px;
+   /* border: 1px solid #e0e0e0;*/
+    cursor: pointer;
+    float: left;
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    }  
+    
+.box2_span1{
+	width: 170px;
+    display: inline-block;
+    text-align: center;
+}    
+.box2_span2{color: #b0b0b0;}  
+.box2_back{background-color:#F0FFFF;color:#ff6700 }
+
+
+.desc_right_desc_box3{width:100%;padding-bottom: 20px;/*border-bottom: 2px solid #E2E2E2;*/margin-top: 30px;}
+
+.box3_p1{
+	line-height: 1;
+    font-size: 18px;
+    }
+
+.box3_ul li{   
+	margin-left: 6px;
+    margin-top: 15px;
+    line-height: 42px;
+    /*border: 1px solid #e0e0e0;*/
+    cursor: pointer;
+    float: left;
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    }  
+    
+.box3_span1{
+	width: 100%;
+    display: inline-block;
+    text-align: center;
+}    
+.box3_span2{color: #b0b0b0;}  
+.box3_back{background-color:#F0FFFF;color:#ff6700 }
+
+
+.desc_right_desc_box4{width:100%;padding-bottom: 20px;/*border-bottom: 2px solid #E2E2E2;*/margin-top: 30px;}
+.box_p4{
+	color: #b0b0b0;
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+}
+
+.desc_right_desc_box4{width:100%;padding-bottom: 20px;/*border-bottom: 2px solid #E2E2E2;*/margin-top: 30px;}
+.box4_p1{
+	line-height: 1;
+    font-size: 18px;
+    }
+
+.box4_ul li{   
+	margin-left: 6px;
+    margin-top: 15px;
+    line-height: 42px;
+   /* border: 1px solid #e0e0e0;*/
+    cursor: pointer;
+    float: left;
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    }  
+    
+.box4_span1{
+    width: 54px;
+    display: inline-block;
+    margin-left: 75px;
+    text-align: center;
+}    
+.box4_span1 img{width: 20px;height: 20px;}
+
+.box4_span2{color: #b0b0b0;}  
+.box4_back{background-color:#F0FFFF;color:#ff6700 }
+
+.desc_right_desc_box5{width: 100%; background: #F0F0F0;}
+.box5{width: 90%;/*border: 1px solid red;*/ margin: 0px auto;line-height: 30px;}
+.box5_one,.box5_two{width: 90%;/*border: 1px solid red; */margin: 0px auto;color: #616161;padding: 10px 0px;}
+.box5_three{color: #ff6700;
+    font-size: 24px;
+    padding-top: 20px;}
+.box5_one_left{float: left;}
+.box5_one_right{float: right;}
+
+
+.desc_right_desc_box6{width: 100%; /*height: 100px;*/ /*border: 1px solid red;*/margin-top: 40px;}
+.box6_button01{width: 300px; height: 54px;}
+.box6_button02{width: 140px;height: 52px;}
+.box6_button02>img{width: 30px;height: 30px;margin-right: 5px;}
+
+.desc_right_desc_box7{width: 100%;/*height: 100px;*/ /*border: 1px solid red;*/margin-top: 30px; color: #b0b0b0;}
+.desc_right_desc_box7 ul li{margin-right: 25px;display: inline-block;}
+.box7_span{margin-top: 7px;float: left;}
+
+
+.dui{width: 30px;height: 30px;float: left;}
+
+
+/*清除浮动开始*/
+.clear:after,.clear:before{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clear{zoom: 1;}
+/*清除浮动结束*/
+
+#Goods_price{width: 100%;background: #F1F1F1;}
+.price_box{width: 1225px;margin: 0px auto;padding-bottom: 30px;}
+.price_box h3{
+	font-size: 22px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1em 0;
+}
+
+
+/*商品详情页面样式结束*/

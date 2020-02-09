@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>MindYou - 商品介绍</title>
+		
+		<style>
+		dd, dt {
+		     line-height:50px; 
+		}
+		</style>
+		<!--网页标题图标-->
+		<link rel="icon" href="../img/public/xintiao.ico" type="x-icon" />
+		
+		<!--商品介绍页面的CSS-->
+		<link rel="stylesheet" href="../css/Commodity_introduction.css" type="text/css" />
+		
+		<!--bootstrap插件引入-->
+		<link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/comment.css" type="text/css" />
+
+		<!--引入layui插件-->
+		<link rel="stylesheet" href="../js/layui/css/layui.css" media="all">
+		<script src="../js/layui/layui.js" type="text/javascript"></script>
+		<script src="../js/Jq/jquery.min.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<!--MindYou商城介绍页面顶部开始-->
+		<div id="Mind_top">
+			<div class="top_center">
+				<div class="top_left">
+					<ul>
+						<li class="top_left_one">
+							<a href="home.html">MindYou</a>
+						</li>
+						<li class="top_left_one">
+							|
+						</li>
+						<li class="top_left_one">
+							<a href="#">娱乐</a>
+						</li>
+						<li class="top_left_one">
+							|
+						</li>
+						<li class="top_left_one">
+							<a href="#">影视</a>
+						</li>
+						<li class="top_left_one">
+							|
+						</li>
+						<li class="top_left_one">
+							<a href="#">我的足迹</a>
+						</li>
+						<li class="top_left_one">
+							|
+						</li>
+						<li class="top_left_one">
+							<a href="#">MindYou问题反馈</a>
+						</li>
+					</ul>
+				</div>
+				<div class="top_right">
+					<div class="top_right_one">
+						<a href="login.html">登陆</a>
+						<span class="top_right_one_fgx">|</span>
+						<a href="register.html">注册</a>
+						<span class="top_right_one_fgx">|</span>
+						<a href="#">消息通知</a>
+					</div>
+					<div class="top_right_two">
+						<img src="../img/home/gouwuche.png" class="top_right_img" />
+						<a href="#" style="vertical-align: -30%;">购物车(0)</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--MindYou商城介绍页面顶部结束-->
+
+		<!--MindYou商城介绍头部开始-->
+		<div id="Mind_head">
+			<div class="Mind_head_box">
+				<div class="Mind_head_left">
+					<img src="../img/home/daitu.gif" />
+				</div>
+				<div class="Mind_head_center">
+					<ul>
+						<li class="head_center_one">
+							<a href="#">手机</a>
+						</li>
+						<li class="head_center_one">
+							<a href="#">电脑</a>
+						</li>
+						<li class="head_center_one">
+							<a href="#">电视</a>
+						</li>
+						<li class="head_center_one">
+							<a href="#">相机</a>
+						</li>
+						<li class="head_center_one">
+							<a href="#">智能生活</a>
+						</li>
+						<li class="head_center_one">
+							<a href="#">MindYou导航</a>
+							<img src="../img/home/plus-arrow-down.png" style="width: 15px; height: 15px;vertical-align: -5%;" />
+						</li>
+					</ul>
+				</div>
+				<div class="Mind_head_right">
+					<input type="text" class="head_right_one" placeholder="请输入搜索的商品" />
+					<span style="position: relative;bottom: 5px;">
+						<a href="#"><img src="../img/home/sousuo.png" class="head_right_two"/></a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!--MindYou商城介绍页面头部结束-->
+
+		<!--MindYou商城介绍页面的面包屑+导航栏开始-->
+		<div id="Mind_Crumbs">
+			<div class="Crumbs_box">
+				<span class="layui-breadcrumb" style="line-height: 50px;">
+				  <a href="home.html">首页</a>
+				  <a><cite>商品介绍</cite></a>
+				</span>
+				<div class="Crumbs_daohang">
+					<ul>
+						<li class="daohang_color daohang_one">概述</li>
+						<li class="daohang_one">参数</li>
+						<li class="daohang_one" style="border: none;">用户评论</li>
+						<button type="button" class="layui-btn layui-btn-primary layui-btn-sm layui-btn-danger daohang_two" onclick="window.location.href='../html/Goods_desc.html'">立即购买</button>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--MindYou商城介绍页面的面包屑+导航栏结束-->
+
+		<!--MindYou商城介绍页面主题开始-->
+		<div id="Mind_Desc">
+			<div class="Desc_box">
+				<!--1、商品介绍页面概述开始-->
+				<div class="box_one">
+					<div class="Summary_one">
+						<img src="../img/desc/section01_bg0.jpg" />
+					</div>
+					<div class="Summary_two Sumary_juli01">
+						<ul>
+							<li class="two_img01"><img src="../img/desc/section02_img1.jpg" /></li>
+							<li class="two_img01"><img src="../img/desc/section02_img3.jpg" /></li>
+							<li class="two_img01"><img src="../img/desc/section02_img4.jpg" /></li>
+							<li class="two_img01"><img src="../img/desc/section02_img5.jpg" /></li>
+							<li class="two_img01"><img src="../img/desc/section02_img6.jpg" class="two_img" /></li>
+							<li class="two_img01"><img src="../img/desc/section02_img7.jpg" class="two_img" /></li>
+							<li class="two_img01"><img src="../img/desc/section02_img2.jpg" class="two_img" /></li>
+						</ul>
+					</div>
+					<div class="Summary_three Sumary_juli02">
+						<img src="../img/desc/section03_bg.jpg" />
+					</div>
+				</div>
+				<!--1、商品介绍页面概述结束-->
+				
+				<!--2、商品介绍页面参数开始-->
+				<div class="box_two">
+					<div class="Summary_one parameter_one">
+						<img src="../img/desc/specs_banner.jpg" />
+					</div>
+					<div class="Summary_two parameter_two">
+						<div class="parameter_two_left">
+							<p class="two_left_p1">处理器</p>
+						</div>
+						<div class="parameter_two_right">
+							<p class="two_right_p1">高通骁龙730G处理器</p>
+							<p class="two_right_p2">CPU： Kryo 4 系架构，8nm 工艺制程，最高主频 2.2GHz</p>
+							<p class="two_right_p2">GPU ：Adreno 618 图形处理器，最高频率提升至 700MHz</p>
+						</div>
+					</div>
+					<div class="Summary_three parameter_three">
+						<div class="parameter_three_left">
+							<p class="two_left_p1">屏幕</p>
+						</div>
+						<div class="parameter_three_right">
+							<p class="three_right_p1">6.67英寸 双孔全面屏<br /> 德国莱茵TÜV 低蓝光认证</p>
+							<p class="three_right_p2">屏幕刷新率：Max 120Hz</p>
+							<p class="three_right_p2">分辨率：2400 x 1080 FHD+</p>
+							<p class="three_right_p2">标准模式 | 阳光屏 | 夜光屏 | 无级色温调节</p>
+							<p class="three_right_p2">256阶护眼模式 德国莱茵TüV低蓝光认证</p>
+							<p class="three_right_p2">康宁第五代大猩猩玻璃</p>
+							<p class="three_right_p2">采用防油渍防指纹涂层</p>
+							<p class="three_right_p2">支持HDR 10 显示</p>
+							<p class="three_right_p2">*Redmi 手机显示屏采用曲线优美的圆角设计，四个圆角位于一个标准矩形内。按照标准矩形测量时，屏幕的对角线长度是 6.67 英寸 (实际可视区域略小)。</p>
+						</div>
+					</div>
+					<div class="Summary_three parameter_four">
+						<div class="Summary_four">
+							<div class="parameter_four_left">
+								<p class="two_left_p1">操作系统</p>
+							</div>
+							<div class="parameter_four_right">
+								<p class="four_right_p1">MIUI 11</p>
+								<p class="four_right_p3">支持 MI Turbo</p>
+								<p class="four_right_p2">支持碎片整理 I/O性能优化 | 支持应用启动速度优化</p>
+								<p class="four_right_p2">模拟 24个月使用，降低老化卡顿35%*</p><br />
+								<p class="four_right_p2">*通过小米实验室模拟24个月老化使用，实验证明 MI Turbo 可有效降低卡顿35%。</p><br /><br />
+								<p class="four_right_p3">支持 Game Turbo 2.0</p>
+								<p class="four_right_p2">支持感知游戏复杂场景 ，智能调度系统资源 | 支持自定义游戏触控参数丨支持自定义游戏显示增强；</p>
+								<p class="four_right_p2">枪战类游戏4D震感 | 游戏工具箱支持显示CPU、GPU占用及FPS丨支持一键切换上网卡 | 支持直接切换显示增强</p>
+								<p class="four_right_p2">支持游戏性能增强、优化触控响应丨支持自定义边缘抑制范围 | 支持关闭自动亮度、三指截屏、护眼模式</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--2、商品介绍页面参数结束-->
+				
+				<!--3、商品介绍页面评论开始-->
+				<div class="box_three">
+					<div class="box_three_div1">
+						<ul>
+							<li><button type="button" class="button_hui button_color">全部</button></li>
+							<li><button type="button" class="button_hui">手感很棒</button></li>
+							<li><button type="button" class="button_hui">功能强大</button></li>
+							<li><button type="button" class="button_hui">非常喜欢</button></li>
+							<li><button type="button" class="button_hui">颜色漂亮</button></li>
+							<li><button type="button" class="button_hui">速度很快</button></li>
+						</ul>
+					</div>
+					<div class="box_three_div2 clear">
+						<div class="box_three_tab01">
+							<div class="three_tab01_one">
+								<div class="tab01_one_left">
+									<h1>热门评价</h1></div>
+								<div class="tab01_one_right"><span class="one_right_span01">9999</span><span class="one_right_span02">人购买后的评论</span></div>
+							</div>
+							<div class="three_table01_two clear">
+								<div class="table01_two_left">
+									<img src="../img/desc/kZvbCUmIwzYZsL.jpg" />
+								</div>
+								<div class="table01_two_top">
+									<div class="two_top_one">
+										<div class="two_top_one_left">
+											<h3>千与千寻</h3>
+											<h4>2019-12-16</h3>
+		 								</div>
+		 								<div class="two_top_one_center">
+		 									<!--商品评分-->
+											<div class="test9"></div>
+		 								</div>
+		 								<div class="two_top_one_right">
+		 									<img src="../img/desc/笑脸.png" /><span>超爱</span>
+		 								</div>
+		 							</div>
+		 							<p class="two_bottom">
+		 								我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。
+		 							</p>
+		 						</div>
+		 						
+		 						<div class="table01_two_bottom">
+		 							<div class="tm-m-photos">
+								      <ul class="tm-m-photos-thumb">
+								        <li data-src="../img/desc/section02_img1.jpg"> <img src="../img/desc/section02_img1.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img2.jpg"> <img src="../img/desc/section02_img2.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img3.jpg"> <img src="../img/desc/section02_img3.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img4.jpg"> <img src="../img/desc/section02_img4.jpg"> <b class="tm-photos-arrow"></b> </li>
+								      </ul>
+								      <div class="tm-m-photo-viewer"> 
+							            <img src="../img/desc/section02_img1.jpg"> 
+								        <a class="tm-m-photo-viewer-navleft"><i></i></a> 
+								        <a class="tm-m-photo-viewer-navright"><i></i></a> 
+								   	 </div>
+									</div>
+									
+									<section class="tent_info">
+										<div class="col-md-12 col-sm-12 col-xl-12 textarea one">
+											<textarea class="text_send" id="text_send" placeholder="给买家留言"></textarea>
+											<button type="button" class="layui-btn layui-btn-primary btn_send" style="height: 41px;margin-bottom: 1px;">确认留言</button>
+										</div>
+									</section>
+									
+		 						</div>
+		 					</div>
+		 				</div>
+		 				
+		 				
+		 				<div class="box_three_tab box_three_tab02">
+		 					<div class="three_tab01_one">
+								<div class="tab01_one_left">
+									<h1>热门评价</h1></div>
+								<div class="tab01_one_right"><span class="one_right_span01">888</span><span class="one_right_span02">人购买后的评论</span></div>
+							</div>
+							<div class="three_table01_two clear">
+								<div class="table01_two_left">
+									<img src="../img/desc/kZvbCUmIwzYZsL.jpg" />
+								</div>
+								<div class="table01_two_top">
+									<div class="two_top_one">
+										<div class="two_top_one_left">
+											<h3>千与千寻02</h3>
+											<h4>2019-12-16</h3>
+		 								</div>
+		 								<div class="two_top_one_center">
+		 									<!--商品评分-->
+											<div class="test9"></div>
+		 								</div>
+		 								<div class="two_top_one_right">
+		 									<img src="../img/desc/笑脸.png" /><span>超爱</span>
+		 								</div>
+		 							</div>
+		 							<p class="two_bottom">
+		 								我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。
+		 							</p>
+		 						</div>
+		 						
+		 						<div class="table01_two_bottom">
+		 							<div class="tm-m-photos">
+								      <ul class="tm-m-photos-thumb">
+								        <li data-src="../img/desc/section02_img1.jpg"> <img src="../img/desc/section02_img1.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img2.jpg"> <img src="../img/desc/section02_img2.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img3.jpg"> <img src="../img/desc/section02_img3.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img4.jpg"> <img src="../img/desc/section02_img4.jpg"> <b class="tm-photos-arrow"></b> </li>
+								      </ul>
+								      <div class="tm-m-photo-viewer"> 
+							            <img src="../img/desc/section02_img1.jpg"> 
+								        <a class="tm-m-photo-viewer-navleft"><i></i></a> 
+								        <a class="tm-m-photo-viewer-navright"><i></i></a> 
+								   	 </div>
+									</div>
+									
+									<section class="tent_info">
+										<div class="col-md-12 col-sm-12 col-xl-12 textarea one">
+											<textarea class="text_send" id="text_send" placeholder="给买家留言"></textarea>
+											<button type="button" class="layui-btn layui-btn-primary btn_send" style="height: 41px;margin-bottom: 1px;">确认留言</button>
+										</div>
+									</section>
+		 						</div>
+		 					</div>
+		 				</div>
+		 				
+		 				
+		 				<div class="box_three_tab box_three_tab03">
+		 				<div class="three_tab01_one">
+								<div class="tab01_one_left">
+									<h1>热门评价</h1></div>
+								<div class="tab01_one_right"><span class="one_right_span01">777</span><span class="one_right_span02">人购买后的评论</span></div>
+							</div>
+							<div class="three_table01_two clear">
+								<div class="table01_two_left">
+									<img src="../img/desc/kZvbCUmIwzYZsL.jpg" />
+								</div>
+								<div class="table01_two_top">
+									<div class="two_top_one">
+										<div class="two_top_one_left">
+											<h3>千与千寻03</h3>
+											<h4>2019-12-16</h3>
+		 								</div>
+		 								<div class="two_top_one_center">
+		 									<!--商品评分-->
+											<div class="test9"></div>
+		 								</div>
+		 								<div class="two_top_one_right">
+		 									<img src="../img/desc/笑脸.png" /><span>超爱</span>
+		 								</div>
+		 							</div>
+		 							<p class="two_bottom">
+		 								我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。
+		 							</p>
+		 						</div>
+		 						
+		 						<div class="table01_two_bottom">
+		 							<div class="tm-m-photos">
+								      <ul class="tm-m-photos-thumb">
+								        <li data-src="../img/desc/section02_img1.jpg"> <img src="../img/desc/section02_img1.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img2.jpg"> <img src="../img/desc/section02_img2.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img3.jpg"> <img src="../img/desc/section02_img3.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img4.jpg"> <img src="../img/desc/section02_img4.jpg"> <b class="tm-photos-arrow"></b> </li>
+								      </ul>
+								      <div class="tm-m-photo-viewer"> 
+							            <img src="../img/desc/section02_img1.jpg"> 
+								        <a class="tm-m-photo-viewer-navleft"><i></i></a> 
+								        <a class="tm-m-photo-viewer-navright"><i></i></a> 
+								   	 </div>
+									</div>
+									
+									<section class="tent_info">
+										<div class="col-md-12 col-sm-12 col-xl-12 textarea one">
+											<textarea class="text_send" id="text_send" placeholder="给买家留言"></textarea>
+											<button type="button" class="layui-btn layui-btn-primary btn_send" style="height: 41px;margin-bottom: 1px;">确认留言</button>
+										</div>
+									</section>
+									
+		 						</div>
+		 					</div>	
+		 				</div>
+		 				
+		 				
+		 				<div class="box_three_tab box_three_tab04">
+		 					<div class="three_tab01_one">
+								<div class="tab01_one_left">
+									<h1>热门评价</h1></div>
+								<div class="tab01_one_right"><span class="one_right_span01">666</span><span class="one_right_span02">人购买后的评论</span></div>
+							</div>
+							<div class="three_table01_two clear">
+								<div class="table01_two_left">
+									<img src="../img/desc/kZvbCUmIwzYZsL.jpg" />
+								</div>
+								<div class="table01_two_top">
+									<div class="two_top_one">
+										<div class="two_top_one_left">
+											<h3>千与千寻04</h3>
+											<h4>2019-12-16</h3>
+		 								</div>
+		 								<div class="two_top_one_center">
+		 									<!--商品评分-->
+											<div class="test9"></div>
+		 								</div>
+		 								<div class="two_top_one_right">
+		 									<img src="../img/desc/笑脸.png" /><span>超爱</span>
+		 								</div>
+		 							</div>
+		 							<p class="two_bottom">
+		 								我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。
+		 							</p>
+		 						</div>
+		 						
+		 						<div class="table01_two_bottom">
+		 							<div class="tm-m-photos">
+								      <ul class="tm-m-photos-thumb">
+								        <li data-src="../img/desc/section02_img1.jpg"> <img src="../img/desc/section02_img1.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img2.jpg"> <img src="../img/desc/section02_img2.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img3.jpg"> <img src="../img/desc/section02_img3.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img4.jpg"> <img src="../img/desc/section02_img4.jpg"> <b class="tm-photos-arrow"></b> </li>
+								      </ul>
+								      <div class="tm-m-photo-viewer"> 
+							            <img src="../img/desc/section02_img1.jpg"> 
+								        <a class="tm-m-photo-viewer-navleft"><i></i></a> 
+								        <a class="tm-m-photo-viewer-navright"><i></i></a> 
+								   	 </div>
+									</div>
+									
+									<section class="tent_info">
+										<div class="col-md-12 col-sm-12 col-xl-12 textarea one">
+											<textarea class="text_send" id="text_send" placeholder="给买家留言"></textarea>
+											<button type="button" class="layui-btn layui-btn-primary btn_send" style="height: 41px;margin-bottom: 1px;">确认留言</button>
+										</div>
+									</section>
+									
+		 						</div>
+		 					</div>
+		 				</div>
+		 				<div class="box_three_tab box_three_tab05">
+		 					<div class="three_tab01_one">
+								<div class="tab01_one_left">
+									<h1>热门评价</h1></div>
+								<div class="tab01_one_right"><span class="one_right_span01">444</span><span class="one_right_span02">人购买后的评论</span></div>
+							</div>
+							<div class="three_table01_two clear">
+								<div class="table01_two_left">
+									<img src="../img/desc/kZvbCUmIwzYZsL.jpg" />
+								</div>
+								<div class="table01_two_top">
+									<div class="two_top_one">
+										<div class="two_top_one_left">
+											<h3>千与千寻05</h3>
+											<h4>2019-12-16</h3>
+		 								</div>
+		 								<div class="two_top_one_center">
+		 									<!--商品评分-->
+											<div class="test9"></div>
+		 								</div>
+		 								<div class="two_top_one_right">
+		 									<img src="../img/desc/笑脸.png" /><span>超爱</span>
+		 								</div>
+		 							</div>
+		 							<p class="two_bottom">
+		 								我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美
+		 							</p>
+		 						</div>
+		 						
+		 						<div class="table01_two_bottom">
+		 							<div class="tm-m-photos">
+								      <ul class="tm-m-photos-thumb">
+								        <li data-src="../img/desc/section02_img1.jpg"> <img src="../img/desc/section02_img1.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img2.jpg"> <img src="../img/desc/section02_img2.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img3.jpg"> <img src="../img/desc/section02_img3.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img4.jpg"> <img src="../img/desc/section02_img4.jpg"> <b class="tm-photos-arrow"></b> </li>
+								      </ul>
+								      <div class="tm-m-photo-viewer"> 
+							            <img src="../img/desc/section02_img1.jpg"> 
+								        <a class="tm-m-photo-viewer-navleft"><i></i></a> 
+								        <a class="tm-m-photo-viewer-navright"><i></i></a> 
+								   	 </div>
+									</div>
+									
+									<section class="tent_info">
+										<div class="col-md-12 col-sm-12 col-xl-12 textarea one">
+											<textarea class="text_send" id="text_send" placeholder="给买家留言"></textarea>
+											<button type="button" class="layui-btn layui-btn-primary btn_send" style="height: 41px;margin-bottom: 1px;">确认留言</button>
+										</div>
+									</section>
+		 						</div>
+		 					</div>
+		 				</div>
+		 				<div class="box_three_tab box_three_tab06">
+		 					<div class="three_tab01_one">
+								<div class="tab01_one_left">
+									<h1>热门评价</h1></div>
+								<div class="tab01_one_right"><span class="one_right_span01">9999</span><span class="one_right_span02">人购买后的评论</span></div>
+							</div>
+							<div class="three_table01_two clear">
+								<div class="table01_two_left">
+									<img src="../img/desc/kZvbCUmIwzYZsL.jpg" />
+								</div>
+								<div class="table01_two_top">
+									<div class="two_top_one">
+										<div class="two_top_one_left">
+											<h3>千与千寻06</h3>
+											<h4>2019-12-16</h3>
+		 								</div>
+		 								<div class="two_top_one_center">
+		 									<!--商品评分-->
+											<div class="test9"></div>
+		 								</div>
+		 								<div class="two_top_one_right">
+		 									<img src="../img/desc/笑脸.png" /><span>超爱</span>
+		 								</div>
+		 							</div>
+		 							<p class="two_bottom">
+		 								我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。我要告诉大海，告诉天空，告诉土地，告诉小鸟，告诉全世界，有你才是完美||ヽ(*￣▽￣*)ノミ|Ю感谢您对小米的支持。
+		 							</p>
+		 						</div>
+		 						
+		 						<div class="table01_two_bottom">
+		 							<div class="tm-m-photos">
+								      <ul class="tm-m-photos-thumb">
+								        <li data-src="../img/desc/section02_img1.jpg"> <img src="../img/desc/section02_img1.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img2.jpg"> <img src="../img/desc/section02_img2.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img3.jpg"> <img src="../img/desc/section02_img3.jpg"> <b class="tm-photos-arrow"></b> </li>
+								        <li data-src="../img/desc/section02_img4.jpg"> <img src="../img/desc/section02_img4.jpg"> <b class="tm-photos-arrow"></b> </li>
+								      </ul>
+								      <div class="tm-m-photo-viewer"> 
+							            <img src="../img/desc/section02_img1.jpg"> 
+								        <a class="tm-m-photo-viewer-navleft"><i></i></a> 
+								        <a class="tm-m-photo-viewer-navright"><i></i></a> 
+								   	 </div>
+									</div>
+									
+									<section class="tent_info">
+										<div class="col-md-12 col-sm-12 col-xl-12 textarea one">
+											<textarea class="text_send" id="text_send" placeholder="给买家留言"></textarea>
+											<button type="button" class="layui-btn layui-btn-primary btn_send" style="height: 41px;margin-bottom: 1px;">确认留言</button>
+										</div>
+									</section>
+		 						</div>
+		 					</div>
+		 				</div>
+		 			</div>
+		 		</div>
+				<!--3、商品介绍页面评论结束-->
+		 	</div>
+		</div>
+		<!--MindYou商城介绍页面主题结束-->
+
+
+		<!--MindYou商城介绍底部开始-->
+		<div id="Mind_bottom">
+			<div class="bottom_box">
+				<div class="bottom_one">
+					<dl>
+						<dt>购物指南</dt>
+						<dd>
+							<a href="#" class="bottom_color">购物流程</a>
+						</dd>
+						<dd>
+							<a href="#" class="bottom_color">常见问题</a>
+						</dd>
+						<dd>
+							<a href="#" class="bottom_color">联系客服</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="bottom_two">
+					<dl>
+						<dt>配送方式</dt>
+						<dd>
+							<a href="#" class="bottom_color">上门自提</a>
+						</dd>
+						<dd>
+							<a href="#" class="bottom_color">海外配送</a>
+						</dd>
+						<dd>
+							<a href="#" class="bottom_color">收费标准</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="bottom_three">
+					<dl>
+						<dt>支付方式</dt>
+						<dd>
+							<a href="#" class="bottom_color">货到付款</a>
+						</dd>
+						<dd>
+							<a href="#" class="bottom_color">在线支付</a>
+						</dd>
+						<dd>
+							<a href="#" class="bottom_color">分期付款</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="bottom_four">
+					<dl>
+						<dt>售后服务</dt>
+						<dd>
+							<a href="#" class="bottom_color">售后政策</a>
+						</dd>
+						<dd>
+							<a href="#" class="bottom_color">价格保护</a>
+						</dd>
+						<dd>
+							<a href="#" class="bottom_color">退款说明</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="bottom_five">
+					<p style="color: white;"> Copyright © 2020 析羽点滴 ICP认证:湘ICP备18023772号</p>
+				</div>
+			</div>
+		</div>
+		<!--MindYou商城介绍底部结束-->	
+	</body>
+	<!--面包屑的js-->
+	<script src="../js/public/Crumbs.js"></script>
+	<!--商品介绍页面的js-->
+	<script src="../js/desc/Commodity_introduction.js"></script>
+	<!--商品评论-->
+	<script src="../js/desc/comment.js"></script>
+</html>

@@ -1,0 +1,49 @@
+/*评论插件的css*/
+
+section{
+	width: 800px;
+}
+.textarea{
+	margin: 20px 0;
+}
+textarea{
+	width: 65%;
+	height: 40px;
+	resize: none;
+	float: left;
+}
+.cont{
+	height: auto;
+	border-bottom: 1px solid #5db3c3;
+	margin-top: 10px;
+}
+.one{
+	padding: 0;
+}
+.btn{
+	width: 120px;
+    background: #6dcc71;
+    color: #fff;
+    float: left;
+    margin-top: 2px;
+}
+.btn:hover{
+	color: #fff;
+}
+.img001{
+	border-radius: 100%;
+	width: 100px;
+    height: 100px;
+}
+.two{
+	color: #d4a3a3;
+}
+.three{
+	margin-bottom: 5px;
+}
+.content{
+	height: auto;
+}
+.con_back{
+	height: 30px;
+}

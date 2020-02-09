@@ -1,0 +1,815 @@
+/*MindYou商城全局样式开始*/
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	outline: none;
+	/*去掉搜索框点击时候的边框*/
+}
+
+
+/*MindYou商城全局样式结束*/
+
+
+/*MindYou商城顶部样式开始*/
+#Mind_top {
+	width: 100%;
+	height: 45px;
+	background-color: #000;
+}
+
+.top_center {
+	width: 1226px;
+	height: 100%;
+	margin: 0px auto;
+	/* border: 1px solid forestgreen;*/
+}
+
+.top_left {
+	width: 450px;
+	height: 100%;
+	/* border: 1px solid red;*/
+	float: left;
+}
+
+.top_left_one {
+	float: left;
+	margin-left: 10px;
+	color: white;
+	line-height: 45px;
+	font-size: 14px;
+}
+
+.top_left_one>a,
+.top_right_one>a {
+	font-size: 12px;
+	color: white;
+	line-height: 45px;
+}
+
+.top_left_one>a:hover {
+	color: #ccc;
+}
+
+.top_right_one>a:hover {
+	color: #ccc;
+}
+
+.top_right {
+	width: 360px;
+	height: 100%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+
+.top_right_one {
+	width: 200px;
+	height: 100%;
+	/*border: 1px solid rosybrown;*/
+	float: left;
+}
+
+.top_right_two {
+	width: 150px;
+	height: 100%;
+	/*border: 1px solid rosybrown;*/
+	float: right;
+}
+
+.top_right_two>a {
+	color: white;
+	font-size: 15px;
+}
+
+.top_right_two>a:hover {
+	color: #BC8F8F;
+}
+
+.top_right_two {
+	background-color: #333;
+}
+
+.top_right_one_fgx {
+	color: #D0D0D0;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.top_right_img {
+	width: 30px;
+	height: 30px;
+    margin-top: 8px;
+	margin-left: 20px;
+}
+
+
+/*MindYou商城顶部样式结束*/
+
+
+/*MindYou商城头部样式开始*/
+
+#Mind_head {
+	width: 100%;
+	height: 100px;
+	background: #fff;
+	box-shadow: 0 0 42px 0 rgba(0, 0, 0, .08);
+	z-index: 99;
+}
+
+.Mind_head_box {
+	width: 1226px;
+	height: 95px;
+	margin: 2px auto;
+	/*border: 1px solid #BC8F8F;*/
+}
+
+.Mind_head_left {
+	width: 180px;
+	height: 90px;
+	float: left;
+	/*border: 1px solid cadetblue;*/
+	margin: 2px auto;
+}
+
+.Mind_head_center {
+	width: 560px;
+	height: 90px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 2px;
+	/*border: 1px solid cadetblue;*/
+}
+
+.head_center_one {
+	float: left;
+	margin-left: 10px;
+	line-height: 40px;
+}
+
+.head_center_one>a {
+	color: #000;
+	font-size: 16px;
+	font-family: "黑体";
+	margin-left: 25px;
+	line-height: 90px;
+	font-weight: 700;
+}
+
+.head_center_one>a:hover {
+	color: #FF6700;
+}
+
+.Mind_head_right {
+	width: 300px;
+	height: 90px;
+	float: right;
+	/*border: 1px solid cadetblue;*/
+	margin: 2px auto;
+}
+
+.head_right_one {
+	width: 256px;
+	height: 25px;
+	border-radius: 45px;
+	margin-top: 30px;
+}
+
+.head_right_two {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 9px;
+	top: 2px;
+}
+
+.head_right_two:hover {
+	width: 21px;
+	height: 21px;
+	border: none;
+}
+
+
+/*MindYou商城头部样式结束*/
+
+
+/*MindYou商城轮播动画开始*/
+
+#Mind_animation {
+	width: 100%;
+	height: 500px;
+	/*border: 1px solid #00FFFF;*/
+}
+
+.carousel_img01 {
+	width: 100%;
+	height: 500px;
+}
+
+
+/*MindYou商城轮播动画结束*/
+
+
+/*MindYou商城新品推荐开始*/
+
+#Mind_New {
+	width: 100%;
+	height: 650px;
+	/*border: 1px solid #007DDB;*/
+	margin-top: 3px;
+}
+
+.New_Box {
+	width: 1225px;
+	height: 100%;
+	/*border: 1px solid red;*/
+	margin: 0px auto;
+}
+
+.New_title {
+	width: 100%;
+	height: 36px;
+	/*border: 1px solid #007DDB;*/
+}
+
+.New_title>.title_two>h2 {
+	font-weight: 700;
+	text-align: center;
+	position: relative;
+	z-index: 98;
+}
+
+.title_one {
+	width: 100%;
+	height: 8px;
+	background-image: url(../img/home/titline.png);
+	position: relative;
+	top: 16px;
+}
+
+.title_two {
+	width: 120px;
+	height: 80%;
+	position: relative;
+	bottom: 5px;
+	left: 550px;
+	background-color: white;
+}
+
+.New_one {
+	height: 600px;
+	width: 320px;
+	/*border: 1px solid #007DDB;*/
+	float: left;
+}
+
+.one_top,
+.three_top {
+	width: 320px;
+	height: 200px;
+	/*border: 1px solid #007DDB;*/
+}
+
+.one_top img,
+.one_bottom img,
+.two_cent img,
+.three_top img,
+.three_bottom img {
+	width: 300px;
+	height: 200px;
+}
+
+.one_top img:hover {
+	cursor: pointer;
+	/*鼠标移到图片上的时候变成手的样子*/
+	transition: 1s;
+	/*方法期间的过渡时间*/
+	transform: scale(1.1);
+	/*放大多少*/
+}
+
+.one_bottom img:hover {
+	cursor: pointer;
+	transition: 1s;
+	transform: scale(1.1)
+}
+
+.two_cent img:hover {
+	cursor: pointer;
+	transition: 1s;
+	transform: scale(1.1)
+}
+
+.three_top img:hover {
+	cursor: pointer;
+	transition: 1s;
+	transform: scale(1.1)
+}
+
+.three_bottom img:hover {
+	cursor: pointer;
+	transition: 1s;
+	transform: scale(1.1)
+}
+
+.one_bottom,
+.three_bottom {
+	width: 320px;
+	height: 200px;
+	/*border: 1px solid #007DDB;*/
+	margin-top: 200px;
+}
+
+.New_two {
+	height: 600px;
+	width: 320px;
+	/*border: 1px solid #007DDB;*/
+	float: left;
+	margin-left: 130px;
+}
+
+.two_cent {
+	width: 100%;
+	height: 200px;
+	/*border: 1px solid #007DDB;*/
+	margin-top: 200px;
+}
+
+.New_three {
+	height: 600px;
+	width: 320px;
+	/*border: 1px solid #007DDB;*/
+	float: right;
+}
+
+
+/*MindYou商城新品推荐结束*/
+
+
+/*MindYou商城秒杀商品开始*/
+
+#Mind_Seckill {
+	width: 100%;
+	height: 400px;
+	/*border: 1px solid #009E94;*/
+	margin-top: 3px;
+}
+
+.Seckill_box {
+	width: 1225px;
+	height: 396px;
+	/*border: 1px solid red;*/
+	margin: 0px auto;
+}
+
+.Seckill_title {
+	width: 100%;
+	height: 36px;
+	/*border: 1px solid #007DDB;*/
+}
+
+.Seckill_title_one {
+	width: 100%;
+	height: 8px;
+	background-image: url(../img/home/titline.png);
+	position: relative;
+	top: 16px;
+}
+
+.Seckill_start {
+	font-size: 21px;
+	width: 100%;
+	text-align: center;
+	margin-top: 80px;
+	color: #ef3a3b;
+}
+
+.Seckill_img01 {
+	width: 80px;
+	height: 80px;
+	margin-left: 75px;
+	margin-top: 15px;
+	font-size: 15px;
+	line-height: 40px;
+	color: #666666;
+}
+
+.Seckill_title_two {
+	width: 120px;
+	height: 80%;
+	position: relative;
+	bottom: 5px;
+	left: 550px;
+	background-color: white;
+}
+
+.Seckill_title_two>h2 {
+	font-weight: 700;
+	text-align: center;
+	position: relative;
+	z-index: 98;
+}
+
+.Seckill_box_one {
+	width: 234px;
+	height: 350px;
+	/*border: 1px solid fuchsia;*/
+	background-color: #f1eded;
+	float: left;
+}
+
+.Seckill_wrap {
+	width: 980px;
+	height: 350px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	float: left;
+}
+
+.Seckill_show {
+	width: 898px;
+	height: 345px;
+	overflow: hidden;
+	float: left;
+	/*border: 1px solid red;*/
+	margin: 0 8px;
+}
+
+.Seckill_show img {
+	width: 200px;
+	height: 220px;
+}
+
+.Seckill_name {
+	width: 100%;
+	height: 25px;
+	/*border: 1px solid;*/
+	margin-top: 6px;
+	text-align: center;
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Seckill_pf {
+	width: 100%;
+	height: 20px;
+	/*border: 1px solid;*/
+	margin-top: 6px;
+}
+
+.Seckill_pf>.test9 {
+	margin-left: 38px;
+}
+
+.Seckill_desc {
+	width: 100%;
+	height: 25px;
+	/*border: 1px solid;*/
+	margin-top: 5px;
+	text-align: center;
+	color: #b0b0b0;
+	font-size: 12px;
+}
+
+.SeKill_price {
+	width: 100%;
+	height: 20px;
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin-top: 5px;
+	color: #ff6700;
+	font-size: 16px;
+}
+
+.Seckill_NoPrice {
+	text-decoration: line-through;
+	color: #B0B0B0;
+}
+
+.Seckill_wrap ul {
+	width: 1000%;
+	height: 61px;
+	margin-left: 0;
+}
+
+.seckill_li {
+	list-style: none;
+	float: left;
+	width: 200px;
+	height: 342px;
+	background: #FFF;
+	border: 1px solid #ddd;
+	margin: 0 10px;
+}
+
+.seckill_li01 {
+	border-top: 3px solid #007DDB;
+}
+
+.seckill_li02 {
+	border-top: 3px solid #009F95;
+}
+
+.seckill_li03 {
+	border-top: 3px solid #ffac13
+}
+
+.seckill_li04 {
+	border-top: 3px solid #FFEBCD;
+}
+
+.seckill_li05 {
+	border-top: 3px solid #EB7350;
+}
+
+.seckill_li06 {
+	border-top: 3px solid #FF00FF;
+}
+
+.seckill_li07 {
+	border-top: 3px solid #0C0C0C;
+}
+
+.seckill_li08 {
+	border-top: 3px solid #FFFF00;
+}
+
+.Seckill_prev,
+.Seckill_next {
+	background-color: #AFB9C3;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-weight: 700;
+	color: azure;
+	font-size: 30px;
+	float: left;
+	margin-top: 170px;
+	cursor: pointer;
+}
+
+
+/*MindYou商城秒杀商品结束*/
+
+
+/*MindYou商城热销商品开始*/
+
+#Mind_Fiery {
+	width: 100%;
+	height: 460px;
+	/*border: 1px solid #00FF00;*/
+}
+
+.Firey_box {
+	width: 1225px;
+	height: 450px;
+	/*border: 1px solid red;*/
+	margin: 0px auto;
+}
+
+.Firey_title {
+	width: 100%;
+	height: 36px;
+	/*border: 1px solid #007DDB;*/
+}
+
+.Firey_title_one {
+	width: 100%;
+	height: 8px;
+	background-image: url(../img/home/titline.png);
+	position: relative;
+	top: 16px;
+}
+
+.Firey_title_two {
+	width: 120px;
+	height: 80%;
+	position: relative;
+	bottom: 5px;
+	left: 550px;
+	background-color: white;
+}
+
+.Firey_title_two>h2 {
+	font-weight: 700;
+	text-align: center;
+	position: relative;
+	z-index: 98;
+}
+
+.Firey_one,
+.Firey_two,
+.Firey_three,
+.Firey_four,
+.Firey_five,
+.Firey_six {
+	width: 380px;
+	height: 190px;
+	border: 1px solid #EEEEEE;
+	float: left;
+	margin-left: 20px;
+	margin-top: 12px;
+}
+
+
+/*设置鼠标移上去的时候阴影效果*/
+
+.Firey_one:hover {
+	margin-top: 5px;
+	box-shadow: 5px 5px 8px #ccc;
+	transition: 1s;
+}
+
+.Firey_two:hover {
+	margin-top: 5px;
+	box-shadow: 5px 5px 8px #ccc;
+	transition: 1s;
+}
+
+.Firey_four:hover {
+	margin-top: 5px;
+	box-shadow: 5px 5px 8px #ccc;
+	transition: 1s;
+}
+
+.Firey_five:hover {
+	margin-top: 5px;
+	box-shadow: 5px 5px 8px #ccc;
+	transition: 1s;
+}
+
+.Firey_six:hover {
+	margin-top: 5px;
+	box-shadow: 5px 5px 8px #ccc;
+	transition: 1s;
+}
+
+.Firey_one_left,
+.Firey_two_left,
+.Firey_three_left,
+.Firey_four_left,
+.Firey_five_left,
+.Firey_six_left {
+	width: 145px;
+	height: 100%;
+	/*border: 1px solid royalblue;*/
+	float: left;
+}
+
+.Firey_one_right,
+.Firey_two_right,
+.Firey_three_right,
+.Firey_four_right,
+.Firey_five_right,
+.Firey_six_right {
+	width: 230px;
+	height: 100%;
+	/*border: 1px solid royalblue;*/
+	float: right;
+}
+
+.Firey_one_img01 {
+	width: 140px;
+	height: 90%;
+}
+
+.Firey_right_h2 {
+	width: 100%;
+	height: 40px;
+	/*border: 1px solid blanchedalmond;*/
+	text-align: center;
+	margin-top: 25px;
+}
+
+.Firey_right_pf {
+	width: 100%;
+	height: 20px;
+	/*border: 1px solid blanchedalmond;*/
+	margin-top: 5px;
+	text-align: center;
+}
+
+.Firey_right_desc {
+	width: 100%;
+	height: 40px;
+	/*border: 1px solid blanchedalmond;*/
+	margin-top: 5px;
+	text-align: center;
+}
+
+.Firey_right_price {
+	width: 100%;
+	height: 20px;
+	/*	border: 1px solid blanchedalmond;*/
+	margin-top: 5px;
+	text-align: center;
+}
+
+.Firey_right_desc>a {
+	color: #b0b0b0;
+}
+
+.Firey_right_price>a {
+	font-size: 17px;
+	color: #DD691D;
+}
+
+.test9>ul {
+	padding: 0;
+}
+
+.Firey_right_desc>a:hover {
+	color: #b0b0b0;
+}
+
+.Firey_right_price>a:hover {
+	color: #DD691D;
+}
+
+
+/*MindYou商城热销商品结束*/
+
+
+/*MindYou商城底部信息开始*/
+
+#Mind_bottom {
+	width: 100%;
+	height: 250px;
+	/*border: 1px solid black;*/
+	margin-top: 3px;
+	background-color: #101010;
+}
+
+.bottom_box {
+	width: 1225px;
+	height: 250px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+
+.bottom_one,
+.bottom_two,
+.bottom_three,
+.bottom_four {
+	width: 200px;
+	height: 200px;
+	/*border: 1px solid #007DDB;*/
+	float: left;
+	margin-left: 85px;
+	text-align: center;
+	line-height: 50px;
+	color: #C4CBCF;
+	font-weight: 700;
+}
+
+.bottom_five {
+	width: 1225px;
+	height: 20px;
+	/*border: 1px solid white;*/
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.bottom_color {
+	color: #808080;
+	font-size: 12px;
+}
+
+.bottom_color:hover {
+	color: white;
+}
+
+
+/*MindYou商城底部信息结束*/
+
+#To_top_Bottom {
+	width: 50px;
+	height: 100px;
+	/*border: 1px solid red;*/
+    position: fixed;
+    right: 0px;
+    top: 265px;
+}
+.To_Top,
+.To_Bottom {
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.To_Top>a>img {
+	width: 40px;
+	height: 40px;
+	font-weight: bolder;
+}
+
+.To_Bottom>a>img {
+	width: 40px;
+	height: 40px;
+	font-weight: bolder;
+}
